@@ -14,7 +14,7 @@
   <mp:PhoneIdentity PhoneProductId="c7568c8f-e7bf-4f5e-af4c-ba76d1ca5987" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
   
   <Properties>
-    <DisplayName>WidgetSample</DisplayName>
+    <DisplayName>ROG Xbox Game Settings</DisplayName>
     <PublisherDisplayName>Microsoft Corporation</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
@@ -29,7 +29,7 @@
   
   <Applications>
     <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="WidgetSample.App">
-      <uap:VisualElements DisplayName="WidgetSample" Description="Sample project demonstrating basic Xbox Game Bar Widgets"
+      <uap:VisualElements DisplayName="ROG Xbox Game Settings" Description="Widget for getting optimized game settings for the ROG Xbox Ally X"
         Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" BackgroundColor="transparent">
         <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png">
         </uap:DefaultTile>
@@ -39,8 +39,8 @@
         <uap3:Extension Category="windows.appExtension">
           <uap3:AppExtension Name="microsoft.gameBarUIExtension"
                              Id="Widget1"
-                             DisplayName="Widget Sample"
-                             Description="Widget Sample Description"
+                             DisplayName="ROG Xbox Game Settings"
+                             Description="Widget for getting optimized game settings for the ROG Xbox Ally X"
                              PublicFolder="GameBar">
             <uap3:Properties>
               <GameBarWidget Type="Standard">
